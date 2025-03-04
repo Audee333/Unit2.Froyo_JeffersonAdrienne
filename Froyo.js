@@ -1,8 +1,8 @@
 // Prompt the user for froyo flavors, separated by commas.
-const userInput = prompt("Enter your froyo flavors separated by commas (e.g., vanilla, chocolate, strawberry, vanilla)");
+const userInputString = prompt("Enter your froyo flavors separated by commas (e.g., vanilla, chocolate, strawberry, vanilla)");
 
 // Convert the input string into an array.
-const flavorArray = userInput.split(",");
+const flavorStringArray = userInputString.split(",");
 
 // Function to count the occurrences of each flavor.
 function countFlavors(flavors) {
