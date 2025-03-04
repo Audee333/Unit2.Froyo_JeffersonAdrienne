@@ -24,4 +24,4 @@ const flavorSummary = countFlavors(flavorArray);
 
 // Display the summary in the console.
 console.log("Your Froyo Order Summary:");
-console.table(flavorSummary);
+console.tabl
